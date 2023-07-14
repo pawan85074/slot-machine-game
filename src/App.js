@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import SlotM from './SlotM';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <h1 className="text-center bg-secondary p-2">🎰 Welcome to my first slot machine game 🎰</h1>
+      <div className='d-flex justify-content-center mt-5'>
+      <div className='card 'style={{width: '18rem'}}>
+      <SlotM x='😄'y='😄'z='😄'/>
+      <SlotM x='🚗'y='🚗'z='😄'/>
+      <SlotM x='🍌'y='😄'z='🍌'/>
+      </div>
+      </div>
+    
+    </>
+  )
 }
 
-export default App;
+export default App
