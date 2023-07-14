@@ -10,7 +10,7 @@ function App() {
       <div className='card 'style={{width: '18rem'}}>
       <SlotM x='😄'y='😄'z='😄'/>
       <SlotM x='🚗'y='🚗'z='😄'/>
-      <SlotM x='🍌'y='😄'z='🍌'/>
+      <SlotM x='🍌'y='🍌'z='🍌'/>
       </div>
       </div>
     
